@@ -30,7 +30,7 @@ header {
       padding-top: 5px;
       color: #2c2f3c;
       line-height: 100%;
-      font-family: " Hind ", sans-serif;
+      font-family: "Source Sans Pro", sans-serif;
       font-size: 1.3em;
       font-weight: 600;
       letter-spacing: 1px;
@@ -40,7 +40,8 @@ header {
         text-align: center;
         font-size: 0.5rem;
         letter-spacing: normal;
-        transform: scale(1.2, 0.96); }
+        transform: scale(1.2, 0.96);
+        font-family: "Source Sans Pro", sans-serif; }
   header .header_heading {
     position: relative;
     width: 500px;
@@ -69,7 +70,8 @@ header {
     color: #2c2f3c;
     line-height: 1.48;
     white-space: pre-line;
-    word-spacing: 0.5px; }
+    word-spacing: 0.5px;
+    font-family: "Source Sans Pro", sans-serif; }
   header a {
     color: white;
     padding-left: 144px;
@@ -275,7 +277,8 @@ main {
         color: lightgray;
         padding-top: 14px;
         letter-spacing: -0.1px;
-        background-color: inherit; }
+        background-color: inherit;
+        font-family: "Source Sans Pro", sans-serif; }
     main .section_banner .section_banner_button {
       margin: auto 155px auto 0; }
 
@@ -292,7 +295,7 @@ footer {
     padding-top: 130px;
     display: flex;
     justify-content: space-between;
-    font-family: " Hind ", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: lightgray; }
     footer .footer-wrap .footer_logo {
       display: flex; }
