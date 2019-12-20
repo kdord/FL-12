@@ -1,32 +1,5 @@
-/*
- * Feel free to change name of colors if you need it
- * Feel free to add new colors if you need it
- */
-:root {
-  --bg-color--dark: #0b192f;
-  --bg-color--header: #024161;
-  --link: #fff;
-  --link--hover: #1f52a4;
-  --bg-footer-color: #024161;
-}
-
 body {
   font-family: roboto;
-}
-.post-1 {
-  background: #9d27b0;
-}
-.post-2 {
-  background: #9bb800;
-}
-.post-3 {
-  background: #ed5120;
-}
-.post-4 {
-  background: #9d27b0;
-}
-.post-5 {
-  background: #2d95bb;
 }
 
 * {
@@ -122,7 +95,7 @@ body {
   justify-content: flex-end;
 }
 
-.banner-wrap h1 {
+.banner-wrap h2 {
   margin-bottom: 21px;
   color: white;
   font-size: 3.6rem;
@@ -170,7 +143,7 @@ main {
   flex-direction: row;
 }
 
-.article-content-title h1 {
+.article-content-title h2 {
   float: inherit;
   padding-top: 43px;
   padding-left: 46px;
@@ -245,7 +218,7 @@ main {
 .main-aside-news-content {
   padding: 30px 45px;
 }
-.main-aside-news-content h1 {
+.main-aside-news-content h2 {
   font-weight: 300;
   font-size: 2rem;
 }
@@ -337,7 +310,7 @@ main {
     height: 350px;
     width: 100%;
   }
-  .banner-wrap h1 {
+  .banner-wrap h2 {
     margin-bottom: 10px;
   }
   .banner-wrap p {
@@ -359,7 +332,7 @@ main {
   .article-content {
     width: 100%;
   }
-  .article-content-title h1 {
+  .article-content-title h2 {
     font-size: 3rem;
     padding-left: 30px;
     padding-right: 35px;
@@ -378,7 +351,7 @@ main {
   }
   .footer-wrap {
     flex-direction: column;
-    padding: 15px auto;
+    padding: 15px 0;
     text-align: center;
   }
   .footer-rightside {
@@ -390,7 +363,7 @@ main {
   main {
     flex-direction: column;
   }
-  .banner-wrap h1 {
+  .banner-wrap h2 {
     margin-bottom: 10px;
     font-size: 3rem;
   }
