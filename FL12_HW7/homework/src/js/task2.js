@@ -11,7 +11,9 @@ const THREE = 3;
 const MAX_NUM_DELTA = 4;
 
 let doYouWant = confirm('Do you want to play a game?');
-console.log(doYouWant);
+if (!doYouWant) {
+  alert('You did not become a billionaire, but can');
+}
 do {
   if (counter !== 1) {
     firstPrize *= TWO;
@@ -19,7 +21,6 @@ do {
     thirdPrize *= TWO;
   }
   let rightAnswer = Math.round(Math.random() * maxNum);
-  console.log(rightAnswer);
   let attemptsLeft = 3;
   let game = true;
   do {
@@ -47,12 +48,10 @@ do {
         `Possible prize on current attempt: ${prize}
      `
     );
-    console.log(answer);
     if (answer === null) {
       game = false;
       doYouWant = false;
     } else if (Number(answer) === rightAnswer) {
-      console.log('you win');
       totalPrize += prize;
 
       maxNum += MAX_NUM_DELTA;
@@ -70,7 +69,6 @@ do {
       doYouWant = confirm(
         `Thank you for your participation. Your prize is: ${totalPrize}$. Do you want to play again? `
       );
-      console.log(doYouWant);
     }
   } while (game);
 } while (doYouWant);
